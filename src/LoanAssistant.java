@@ -218,6 +218,7 @@ public class LoanAssistant extends JFrame {
             }
         });
         paymentButton.doClick();
+        setSize(700,400);
     }
     private void balanceTextFieldActionPerformed(ActionEvent e){
         balanceTextField.transferFocus();
